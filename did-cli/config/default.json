@@ -1,0 +1,10 @@
+{
+  "network": {
+    "name": "testnet",
+    "mirrorNode": "https://testnet.mirrornode.hedera.com/api/v1/"
+  },
+  "contract": {
+    "id": "",
+    "address": ""
+  }
+}

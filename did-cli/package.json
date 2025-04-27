@@ -1,0 +1,30 @@
+{
+  "name": "hedera-did-management-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for interacting with the DidManage smart contract on Hedera",
+  "main": "lib/index.js",
+  "bin": {
+    "did-cli": "./bin/did-cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/did-cli.js"
+  },
+  "keywords": [
+    "DID",
+    "Hedera",
+    "blockchain",
+    "CLI"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.30.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "conf": "^10.1.1",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.7.2",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1"
+  }
+}
